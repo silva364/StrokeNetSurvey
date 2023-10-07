@@ -1,0 +1,97 @@
+"","rcc_name","Consent_method","count"
+"1","Chicago Stroke Trials Consortium","method_consent___Person_eConsent",1
+"2","Chicago Stroke Trials Consortium","method_consent___Person_Paper",6
+"3","Chicago Stroke Trials Consortium","method_consent___Telephone_eConsent",3
+"4","Chicago Stroke Trials Consortium","method_consent___Telemedicine_eConsent",2
+"5","Chicago Stroke Trials Consortium","method_consent___Telephone_Paper",1
+"6","Chicago Stroke Trials Consortium","method_consent___Telemedicine_Paper",2
+"7","Florida Regional Coordinating Center","method_consent___Person_eConsent",3
+"8","Florida Regional Coordinating Center","method_consent___Person_Paper",6
+"9","Florida Regional Coordinating Center","method_consent___Telephone_eConsent",3
+"10","Florida Regional Coordinating Center","method_consent___Telemedicine_eConsent",2
+"11","Florida Regional Coordinating Center","method_consent___Telephone_Paper",1
+"12","Florida Regional Coordinating Center","method_consent___Telemedicine_Paper",1
+"13","Michigan StrokeNet","method_consent___Person_eConsent",1
+"14","Michigan StrokeNet","method_consent___Person_Paper",8
+"15","Michigan StrokeNet","method_consent___Telephone_eConsent",3
+"16","Michigan StrokeNet","method_consent___Telemedicine_eConsent",2
+"17","Michigan StrokeNet","method_consent___Telephone_Paper",2
+"18","Michigan StrokeNet","method_consent___Telemedicine_Paper",1
+"19","Mid America Regional Coordinating Center ","method_consent___Person_eConsent",2
+"20","Mid America Regional Coordinating Center ","method_consent___Person_Paper",3
+"21","Mid America Regional Coordinating Center ","method_consent___Telephone_eConsent",2
+"22","Mid America Regional Coordinating Center ","method_consent___Telemedicine_eConsent",0
+"23","Mid America Regional Coordinating Center ","method_consent___Telephone_Paper",0
+"24","Mid America Regional Coordinating Center ","method_consent___Telemedicine_Paper",0
+"25","New York City Collaborative Regional Coordinating Center (NYCC-RCC)","method_consent___Person_eConsent",3
+"26","New York City Collaborative Regional Coordinating Center (NYCC-RCC)","method_consent___Person_Paper",5
+"27","New York City Collaborative Regional Coordinating Center (NYCC-RCC)","method_consent___Telephone_eConsent",2
+"28","New York City Collaborative Regional Coordinating Center (NYCC-RCC)","method_consent___Telemedicine_eConsent",0
+"29","New York City Collaborative Regional Coordinating Center (NYCC-RCC)","method_consent___Telephone_Paper",1
+"30","New York City Collaborative Regional Coordinating Center (NYCC-RCC)","method_consent___Telemedicine_Paper",0
+"31","NorCal Research Coordinating Center","method_consent___Person_eConsent",2
+"32","NorCal Research Coordinating Center","method_consent___Person_Paper",7
+"33","NorCal Research Coordinating Center","method_consent___Telephone_eConsent",5
+"34","NorCal Research Coordinating Center","method_consent___Telemedicine_eConsent",1
+"35","NorCal Research Coordinating Center","method_consent___Telephone_Paper",0
+"36","NorCal Research Coordinating Center","method_consent___Telemedicine_Paper",0
+"37","San Diego StrokeNet","method_consent___Person_eConsent",5
+"38","San Diego StrokeNet","method_consent___Person_Paper",9
+"39","San Diego StrokeNet","method_consent___Telephone_eConsent",5
+"40","San Diego StrokeNet","method_consent___Telemedicine_eConsent",2
+"41","San Diego StrokeNet","method_consent___Telephone_Paper",5
+"42","San Diego StrokeNet","method_consent___Telemedicine_Paper",3
+"43","Stanford University","method_consent___Person_eConsent",1
+"44","Stanford University","method_consent___Person_Paper",4
+"45","Stanford University","method_consent___Telephone_eConsent",2
+"46","Stanford University","method_consent___Telemedicine_eConsent",2
+"47","Stanford University","method_consent___Telephone_Paper",2
+"48","Stanford University","method_consent___Telemedicine_Paper",2
+"49","Stroke Central Atlantic Network for Research (SCANR)","method_consent___Person_eConsent",4
+"50","Stroke Central Atlantic Network for Research (SCANR)","method_consent___Person_Paper",7
+"51","Stroke Central Atlantic Network for Research (SCANR)","method_consent___Telephone_eConsent",2
+"52","Stroke Central Atlantic Network for Research (SCANR)","method_consent___Telemedicine_eConsent",2
+"53","Stroke Central Atlantic Network for Research (SCANR)","method_consent___Telephone_Paper",1
+"54","Stroke Central Atlantic Network for Research (SCANR)","method_consent___Telemedicine_Paper",1
+"55","StrokeNet StrokeBelt","method_consent___Person_eConsent",1
+"56","StrokeNet StrokeBelt","method_consent___Person_Paper",0
+"57","StrokeNet StrokeBelt","method_consent___Telephone_eConsent",0
+"58","StrokeNet StrokeBelt","method_consent___Telemedicine_eConsent",0
+"59","StrokeNet StrokeBelt","method_consent___Telephone_Paper",0
+"60","StrokeNet StrokeBelt","method_consent___Telemedicine_Paper",0
+"61","University of Iowa Regional Coordinating Center","method_consent___Person_eConsent",1
+"62","University of Iowa Regional Coordinating Center","method_consent___Person_Paper",6
+"63","University of Iowa Regional Coordinating Center","method_consent___Telephone_eConsent",1
+"64","University of Iowa Regional Coordinating Center","method_consent___Telemedicine_eConsent",0
+"65","University of Iowa Regional Coordinating Center","method_consent___Telephone_Paper",5
+"66","University of Iowa Regional Coordinating Center","method_consent___Telemedicine_Paper",0
+"67","University of Minnesota Regional Coordinating Center","method_consent___Person_eConsent",2
+"68","University of Minnesota Regional Coordinating Center","method_consent___Person_Paper",1
+"69","University of Minnesota Regional Coordinating Center","method_consent___Telephone_eConsent",2
+"70","University of Minnesota Regional Coordinating Center","method_consent___Telemedicine_eConsent",2
+"71","University of Minnesota Regional Coordinating Center","method_consent___Telephone_Paper",0
+"72","University of Minnesota Regional Coordinating Center","method_consent___Telemedicine_Paper",0
+"73","University of Pittsburgh","method_consent___Person_eConsent",0
+"74","University of Pittsburgh","method_consent___Person_Paper",3
+"75","University of Pittsburgh","method_consent___Telephone_eConsent",1
+"76","University of Pittsburgh","method_consent___Telemedicine_eConsent",2
+"77","University of Pittsburgh","method_consent___Telephone_Paper",0
+"78","University of Pittsburgh","method_consent___Telemedicine_Paper",0
+"79","University of Utah StrokeNet","method_consent___Person_eConsent",1
+"80","University of Utah StrokeNet","method_consent___Person_Paper",4
+"81","University of Utah StrokeNet","method_consent___Telephone_eConsent",1
+"82","University of Utah StrokeNet","method_consent___Telemedicine_eConsent",1
+"83","University of Utah StrokeNet","method_consent___Telephone_Paper",1
+"84","University of Utah StrokeNet","method_consent___Telemedicine_Paper",1
+"85","University of Wisconsin Stroke Net","method_consent___Person_eConsent",1
+"86","University of Wisconsin Stroke Net","method_consent___Person_Paper",0
+"87","University of Wisconsin Stroke Net","method_consent___Telephone_eConsent",1
+"88","University of Wisconsin Stroke Net","method_consent___Telemedicine_eConsent",0
+"89","University of Wisconsin Stroke Net","method_consent___Telephone_Paper",0
+"90","University of Wisconsin Stroke Net","method_consent___Telemedicine_Paper",0
+"91","Western NC StrokeNet","method_consent___Person_eConsent",0
+"92","Western NC StrokeNet","method_consent___Person_Paper",4
+"93","Western NC StrokeNet","method_consent___Telephone_eConsent",1
+"94","Western NC StrokeNet","method_consent___Telemedicine_eConsent",0
+"95","Western NC StrokeNet","method_consent___Telephone_Paper",0
+"96","Western NC StrokeNet","method_consent___Telemedicine_Paper",0
