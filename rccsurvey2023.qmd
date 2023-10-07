@@ -1,0 +1,92 @@
+---
+title: StrokeNet workflow survey report
+format: 
+  html:
+    code-tools: 
+      source: https://github.com/silva364/StrokeNetSurvey/blob/main/rccsurvey2023.qmd
+server: shiny
+author: Luis Silva, Karen Stalin, Abbey Staugaitis
+---
+
+```{r}
+#| context: setup
+#| echo: false
+#| output: false
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(gt)
+library(DT)
+library(paletteer)
+rccs <- read.csv("https://raw.githubusercontent.com/silva364/StrokeNetSurvey/main/treateddata/rcc.csv")
+notifications_acute <- read.csv("https://raw.githubusercontent.com/silva364/StrokeNetSurvey/main/treateddata/notifications_acute.csv")
+
+```
+
+Welcome to your interactive report of the StrokeNet survey! Here you will be able to generate full a pdf file containing the results from your Regional Coordinating Center (RCC) as compared to the rest of survey responders.
+
+Let's first take a look at the RCCs that answered our initial Survey:
+
+::: callout-tip
+## This document is interactive!
+
+All data components in this report are interactive, and you can explore each of them to your liking.
+:::
+
+```{r}
+#| echo: false
+
+  rccs <- datatable(rccs)
+
+rccs
+```
+
+On total, we had 76 site response. Congratulations Michigan and San Diego Networks for putting in the work to answer our survey!
+
+# Pre screening
+
+We asked the participating sites how was pre screening done in three different types of studies: Acute, Secondary Prevention and Outpatient trial in our Network.
+
+Interact with the bar graphs to compare your RCCs answers with the others!
+
+```{r}
+#| panel: sidebar
+  
+  checkboxGroupInput(
+    "selected_rcc",
+    "Select RCC Names",
+    choices = unique(notifications_acute$rcc_name),
+    selected = unique(notifications_acute$rcc_name)
+  )
+```
+
+```{r}
+#| panel: fill
+plotOutput('barplot')
+```
+
+```{r}
+#| context: server
+  filtered_data <- reactive({
+    notifications_acute %>%
+      filter(rcc_name %in% input$selected_rcc)
+  })
+
+  # Create and render the bar plot
+  output$barplot <- renderPlot({
+    ggplot(filtered_data(), aes(x = Acute, y = Count, fill = rcc_name)) +
+      geom_bar(stat = "identity") +
+      scale_fill_manual(values = paletteer_d("colorBlindness::SteppedSequential5Steps")) +
+      labs(x = "Notifications Acute", y = "Count") +
+      ggtitle("Bar Plot of Notifications Acute by RCC Name") +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 15, hjust = 1))
+  })
+
+
+```
+
+
+
+
+
